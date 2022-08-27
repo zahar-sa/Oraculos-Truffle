@@ -1,0 +1,86 @@
+{
+    "contracts": {
+        "/home/zaharina/Developer/Truffle/Asteroides-Oraculo/contracts/Oracle.sol": {
+            "Oracle": {
+                "abi": [],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158206b598b723ee75c5c63ff45fbbf8aa6510ea89bcba925bcc67ce17407aeab1d0e64736f6c634300050b0032",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 PUSH12 0x598B723EE75C5C63FF45FBBF DUP11 0xa6 MLOAD 0xe 0xa8 SWAP12 0xcb 0xa9 0x25 0xbc 0xc6 PUSH29 0xE17407AEAB1D0E64736F6C634300050B00320000000000000000000000 ",
+                        "sourceMap": "164:24:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;164:24:0;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052600080fdfea265627a7a723158206b598b723ee75c5c63ff45fbbf8aa6510ea89bcba925bcc67ce17407aeab1d0e64736f6c634300050b0032",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 PUSH12 0x598B723EE75C5C63FF45FBBF DUP11 0xa6 MLOAD 0xe 0xa8 SWAP12 0xcb 0xa9 0x25 0xbc 0xc6 PUSH29 0xE17407AEAB1D0E64736F6C634300050B00320000000000000000000000 ",
+                        "sourceMap": "164:24:0:-;;;;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "12400",
+                            "executionCost": "66",
+                            "totalCost": "12466"
+                        }
+                    },
+                    "methodIdentifiers": {}
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.5.11+commit.c082d0b4\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/zaharina/Developer/Truffle/Asteroides-Oraculo/contracts/Oracle.sol\":\"Oracle\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/zaharina/Developer/Truffle/Asteroides-Oraculo/contracts/Oracle.sol\":{\"keccak256\":\"0xe987beb2780bf2e7b5f0d7e7381842a73d0fc1d8def367691565bd9c52dca531\",\"urls\":[\"bzz-raw://3622a054d06d7483f69835c8851820a3c118b65a2376eb259f2f05894e5a8d13\",\"dweb:/ipfs/QmSCFsjLrh7BppL3zyKSd1nSjSMiko65BL5hHXcNVCgkhW\"]}},\"version\":1}",
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "sources": {
+        "/home/zaharina/Developer/Truffle/Asteroides-Oraculo/contracts/Oracle.sol": {
+            "ast": {
+                "absolutePath": "/home/zaharina/Developer/Truffle/Asteroides-Oraculo/contracts/Oracle.sol",
+                "exportedSymbols": {
+                    "Oracle": [
+                        2
+                    ]
+                },
+                "id": 3,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            ">",
+                            "0.4",
+                            ".0",
+                            "<",
+                            "0.7",
+                            ".0"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "133:30:0"
+                    },
+                    {
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "documentation": null,
+                        "fullyImplemented": true,
+                        "id": 2,
+                        "linearizedBaseContracts": [
+                            2
+                        ],
+                        "name": "Oracle",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [],
+                        "scope": 3,
+                        "src": "164:24:0"
+                    }
+                ],
+                "src": "133:55:0"
+            },
+            "id": 0
+        }
+    }
+}
